@@ -29,6 +29,9 @@ public class Main {
                 case "divide":
                     System.out.println(calculator.divide(Integer.parseInt(inputList[1]), Integer.parseInt(inputList[2])));
                     break;
+                case "binary":
+                    System.out.println(calculator.intToBinaryNumber(Integer.parseInt(inputList[1])));
+                    break;
                 default:
                     System.out.println("Unrecognized input (enter 'q' to quit)");
             }
